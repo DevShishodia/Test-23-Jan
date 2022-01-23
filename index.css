@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(189, 184, 184);
+}
+.header{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: cursive;
+    color: brown;
+}
+.search{
+    margin: 1rem;
+}
+.container{
+     display: flex;
+     flex-direction: column;
+     gap: 2vh;
+}
+
+a{
+    font-family: cursive;
+    margin: 1.7rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.container > div {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
